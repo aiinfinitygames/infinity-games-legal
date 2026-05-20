@@ -61,7 +61,7 @@ We do **not** sell or share your data with brokers, marketers, or other third pa
 
 ## 4. Children
 
-This App is rated for ages 13+ in the Google Play Store, consistent with AdMob's terms of service. We do not knowingly collect data from children under 13. If you believe a child under 13 has used this App, please contact us at hello@infinitygames.app and we will delete any associated data.
+This App is rated for ages 13+ in the Google Play Store, consistent with AdMob's terms of service. We do not knowingly collect data from children under 13. If you believe a child under 13 has used this App, please contact us at ai.infinitygames@gmail.com and we will delete any associated data.
 
 ---
 
@@ -72,7 +72,7 @@ You can:
 - **Reset your Advertising ID**: Settings → Privacy → Ads → Reset advertising ID. This severs the link AdMob can build between sessions.
 - **Disable notifications**: in-app Settings → Reminders, or in your device's notification settings.
 - **Cancel your subscription**: through Google Play → Subscriptions.
-- **Request data deletion**: email us at hello@infinitygames.app with your device ID (visible in Settings → About) and we will delete any record we hold within 30 days.
+- **Request data deletion**: email us at ai.infinitygames@gmail.com with your device ID (visible in Settings → About) and we will delete any record we hold within 30 days.
 
 ---
 
@@ -98,7 +98,7 @@ We may update this policy from time to time. The "Effective date" above will be 
 
 For questions about this policy or to exercise any of the rights listed above:
 
-**Email:** hello@infinitygames.app
+**Email:** ai.infinitygames@gmail.com
 **Publisher:** Infinity Games
 
 ---
