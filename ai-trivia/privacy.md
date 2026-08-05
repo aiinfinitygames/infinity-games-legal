@@ -1,6 +1,6 @@
 # Privacy Policy — AI Trivia: Quiz Game
 
-**Effective date:** 2026-05-18
+**Effective date:** 2026-08-05 *(previous version: 2026-05-18)*
 **Publisher:** Infinity Games
 **Contact:** ai.infinitygames@gmail.com
 
@@ -8,6 +8,10 @@ This is the privacy policy for the mobile application **AI Trivia: Quiz Game** (
 
 We do not require you to create an account, and we do not collect your name, email address, phone number, contacts, photos, or precise location.
 
+> **What changed on 2026-08-05:** our advertising provider changed from **Google AdMob**
+> to **Unity Ads**. No new *category* of data is collected. Ads are still limited to
+> rewarded and interstitial formats, and there is still exactly one advertising company
+> in the chain.
 ---
 
 ## 1. Data we collect
@@ -39,7 +43,7 @@ The App uses the following third-party services. Each has its own privacy policy
 
 | Service | Purpose | Data they receive |
 |---|---|---|
-| **Google AdMob** | Showing rewarded and interstitial ads | Android Advertising ID, IP address, device model, ad interactions. AdMob is used in compliance with Google's [Families Policy](https://support.google.com/googleplay/android-developer/answer/9893335). [AdMob privacy policy](https://policies.google.com/privacy) |
+| **Unity Ads (Unity Technologies)** | Showing and filling rewarded and interstitial ads | Android Advertising ID, IP address, device model, ad interactions. [Unity privacy policy](https://unity.com/legal/game-player-and-app-user-privacy-policy) |
 | **RevenueCat** | Validating in-app subscription receipts | Device ID, purchase token, subscription metadata. [RevenueCat privacy policy](https://www.revenuecat.com/privacy) |
 | **Cloudflare** | Hosting our backend Worker | IP address (automatically), request metadata. [Cloudflare privacy policy](https://www.cloudflare.com/privacypolicy/) |
 | **OpenRouter / Google Gemini** | Generating trivia questions on demand | Anonymous prompts only — never your device ID or any identifying information. [OpenRouter privacy](https://openrouter.ai/privacy) |
@@ -61,7 +65,7 @@ We do **not** sell or share your data with brokers, marketers, or other third pa
 
 ## 4. Children
 
-This App is rated for ages 13+ in the Google Play Store, consistent with AdMob's terms of service. We do not knowingly collect data from children under 13. If you believe a child under 13 has used this App, please contact us at ai.infinitygames@gmail.com and we will delete any associated data.
+This App is rated for ages 13+ in the Google Play Store, consistent with Unity Ads' terms of service. We do not knowingly collect data from children under 13. If you believe a child under 13 has used this App, please contact us at ai.infinitygames@gmail.com and we will delete any associated data.
 
 ---
 
@@ -69,7 +73,7 @@ This App is rated for ages 13+ in the Google Play Store, consistent with AdMob's
 
 You can:
 - **Stop all data collection**: uninstall the App. The device ID is destroyed on uninstall.
-- **Reset your Advertising ID**: Settings → Privacy → Ads → Reset advertising ID. This severs the link AdMob can build between sessions.
+- **Reset your Advertising ID**: Settings → Privacy → Ads → Reset advertising ID. This severs the link Unity Ads can build between sessions.
 - **Disable notifications**: in-app Settings → Reminders, or in your device's notification settings.
 - **Cancel your subscription**: through Google Play → Subscriptions.
 - **Request data deletion**: email us at ai.infinitygames@gmail.com with your device ID (visible in Settings → About) and we will delete any record we hold within 30 days.
