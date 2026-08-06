@@ -1,6 +1,6 @@
 # Privacy Policy — Built to Fail
 
-**Effective date:** 2026-08-05 *(previous version: 2026-07-16)*
+**Effective date:** 2026-08-06 *(previous versions: 2026-08-05, 2026-07-16)*
 **Publisher:** Infinity Games
 **Contact:** ai.infinitygames@gmail.com
 
@@ -8,6 +8,10 @@ This is the privacy policy for the mobile application **Built to Fail: Merge & T
 
 We do not require you to create an account, and we do not collect your name, email address, phone number, contacts, photos, or precise location. Built to Fail has **no game server** — your progress lives on your device.
 
+> **What changed on 2026-08-06:** section 3 was corrected. An earlier wording said the App
+> shows no consent prompt at all. It does — the Unity Ads SDK presents its own opt-in where
+> the law requires one. Nothing about the App changed; the previous description was wrong.
+>
 > **What changed on 2026-08-05:** our advertising provider changed from **Google AdMob**
 > to **Unity Ads**. No new *category* of data is collected. Ads are still limited to
 > rewarded and interstitial formats, and there is still exactly one advertising company
@@ -62,22 +66,27 @@ We do **not** sell or share your data with brokers, marketers, or other third pa
 Ads in this App are served by **Unity Ads**, which is a single advertising network rather
 than a mediation layer.
 
-**The App does not currently show an in-app consent prompt, and Settings contains no
-personalized-ads toggle.** Earlier versions did, through Google's consent tool; that tool
-was part of the Google AdMob integration and stopped being available to us when that
-integration was retired. Unity Ads provides no replacement consent interface, so the
-previous control no longer exists rather than merely having moved.
+**Consent is collected by Unity Ads itself.** Where the law requires it — including the
+EEA and the UK — the Unity Ads SDK presents its own opt-in for behaviourally targeted
+advertising the first time an ad is shown. We do not run a separate prompt of our own,
+and Settings no longer carries a personalized-ads toggle: earlier versions had one that
+opened Google's consent tool, which was part of the Google AdMob integration and went
+away with it. Removing that button changed which component asks you, not whether you
+are asked.
 
-What you can still do, at the device level, applies to every app on your phone:
+If you decline, ads are served without behavioural targeting rather than not at all.
 
+You can revisit the choice at any time:
+
+- **During any ad**, select the **Unity Data Privacy icon**. From there you can opt out,
+  request access to your data, or ask for it to be deleted.
 - **Android Settings → Privacy → Ads → Delete advertising ID** removes the identifier
   entirely; apps then cannot use it to build a profile across sessions.
-- **Android Settings → Privacy → Ads → Opt out of Ads Personalization** signals to
-  advertising networks that they should not personalize.
+- **Android Settings → Privacy → Ads → Opt out of Ads Personalization** signals to every
+  advertising network on the device that it should not personalize.
 
-If you are in the EEA or the UK and want your data handled under a specific consent
-choice, please contact us at ai.infinitygames@gmail.com and we will action it for your
-device.
+You can also contact us at ai.infinitygames@gmail.com and we will action a request for
+your device.
 
 ---
 
@@ -100,7 +109,7 @@ This App is rated for ages 13+ in the Google Play Store, consistent with Unity A
 
 You can:
 - **Stop all data collection**: uninstall the App.
-- **Limit ad personalization**: use the Android system controls described in Section 3 — the App itself no longer offers this setting.
+- **Limit ad personalization**: use the Unity Data Privacy icon shown during any ad, or the Android system controls — both are described in Section 3.
 - **Reset your Advertising ID**: Android Settings → Privacy → Ads → Reset advertising ID. This severs the link Unity Ads can build between sessions.
 - **Request data deletion / make a privacy request**: email us at ai.infinitygames@gmail.com. For data held by Unity Ads or GameAnalytics, you may also use the contacts in their policies.
 
