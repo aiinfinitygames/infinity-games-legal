@@ -1,6 +1,6 @@
 # Privacy Policy — AI Trivia: Quiz Game
 
-**Effective date:** 2026-08-05 *(previous version: 2026-05-18)*
+**Effective date:** 2026-08-06 *(previous versions: 2026-08-05, 2026-05-18)*
 **Publisher:** Infinity Games
 **Contact:** ai.infinitygames@gmail.com
 
@@ -8,6 +8,10 @@ This is the privacy policy for the mobile application **AI Trivia: Quiz Game** (
 
 We do not require you to create an account, and we do not collect your name, email address, phone number, contacts, photos, or precise location.
 
+> **What changed on 2026-08-06:** a section on personalized ads and consent was added
+> (now section 3). The App did not change — the policy simply never described how ad
+> consent is handled, and it should have. Later sections were renumbered.
+>
 > **What changed on 2026-08-05:** our advertising provider changed from **Google AdMob**
 > to **Unity Ads**. No new *category* of data is collected. Ads are still limited to
 > rewarded and interstitial formats, and there is still exactly one advertising company
@@ -53,7 +57,35 @@ We do **not** sell or share your data with brokers, marketers, or other third pa
 
 ---
 
-## 3. How long we keep your data
+## 3. Personalized ads & consent
+
+Ads in this App are served by **Unity Ads**, which is a single advertising network rather
+than a mediation layer.
+
+**Consent is collected by Unity Ads itself.** Where the law requires it — including the
+EEA and the UK — the Unity Ads SDK presents its own opt-in for behaviourally targeted
+advertising the first time an ad is shown. We do not run a separate prompt of our own.
+
+If you decline, ads are served without behavioural targeting rather than not at all.
+
+You can revisit the choice at any time:
+
+- **During any ad**, select the **Unity Data Privacy icon**. From there you can opt out,
+  request access to your data, or ask for it to be deleted.
+- **Android Settings → Privacy → Ads → Delete advertising ID** removes the identifier
+  entirely; apps then cannot use it to build a profile across sessions.
+- **Android Settings → Privacy → Ads → Opt out of Ads Personalization** signals to every
+  advertising network on the device that it should not personalize.
+
+A **Premium** subscription removes ads from the App altogether, in which case no
+advertising request is made and no advertising identifier is shared.
+
+You can also contact us at ai.infinitygames@gmail.com and we will action a request for
+your device.
+
+---
+
+## 4. How long we keep your data
 
 - **Device ID and subscription status**: kept on our backend until your subscription expires (max 31 days from purchase per renewal), or you uninstall the App.
 - **Daily Challenge leaderboard scores**: kept for 7 days, then automatically deleted.
@@ -63,16 +95,17 @@ We do **not** sell or share your data with brokers, marketers, or other third pa
 
 ---
 
-## 4. Children
+## 5. Children
 
 This App is rated for ages 13+ in the Google Play Store, consistent with Unity Ads' terms of service. We do not knowingly collect data from children under 13. If you believe a child under 13 has used this App, please contact us at ai.infinitygames@gmail.com and we will delete any associated data.
 
 ---
 
-## 5. Your rights
+## 6. Your rights
 
 You can:
 - **Stop all data collection**: uninstall the App. The device ID is destroyed on uninstall.
+- **Limit ad personalization**: use the Unity Data Privacy icon shown during any ad, or the Android system controls — both are described in Section 3.
 - **Reset your Advertising ID**: Settings → Privacy → Ads → Reset advertising ID. This severs the link Unity Ads can build between sessions.
 - **Disable notifications**: in-app Settings → Reminders, or in your device's notification settings.
 - **Cancel your subscription**: through Google Play → Subscriptions.
@@ -80,25 +113,25 @@ You can:
 
 ---
 
-## 6. Security
+## 7. Security
 
 Data in transit to our backend uses TLS (HTTPS). Subscription and reward records are stored in Cloudflare KV under access keys we control. We do not transmit purchase tokens to any party besides RevenueCat (for validation) and our backend.
 
 ---
 
-## 7. International users
+## 8. International users
 
 Our backend is operated by Cloudflare and serves users globally. If you access the App from outside your home country, your data may be processed in jurisdictions other than your own.
 
 ---
 
-## 8. Changes to this policy
+## 9. Changes to this policy
 
 We may update this policy from time to time. The "Effective date" above will be revised, and material changes will be communicated through the App's update notes. Continued use of the App after a change constitutes acceptance of the revised policy.
 
 ---
 
-## 9. Contact
+## 10. Contact
 
 For questions about this policy or to exercise any of the rights listed above:
 
