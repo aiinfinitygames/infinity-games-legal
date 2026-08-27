@@ -1,6 +1,6 @@
 # Privacy Policy — PIXL SURF
 
-**Effective date:** 2026-08-11
+**Effective date:** 2026-08-27
 **Publisher:** Infinity Games
 **Contact:** ai.infinitygames@gmail.com
 
@@ -22,6 +22,7 @@ The following is stored on your device only and is **never** sent to us:
 - Audio (sound) and haptics (vibration) settings
 - Your selected cosmetics (handheld shell theme and board skin)
 - Your best medal earned
+- A **random device identifier** (see Section 1.2a)
 
 You can clear this data at any time by uninstalling the App.
 
@@ -31,12 +32,21 @@ The App includes an optional **global leaderboard**. If — and only if — you 
 - The **display name you type in** (a short nickname of your choosing, up to 12 characters)
 - Your **score**
 - A **timestamp** of the submission
+- A **random device identifier** (see Section 1.2a)
+- A **signature** computed from the above, which exists only to make casual score forgery harder
 
 This information is **publicly visible** to other players on the in-game leaderboard. **Please do not enter your real name or any personal information as your display name** — pick a nickname.
 
 To operate the leaderboard and prevent spam and cheating, our service provider (**Cloudflare**) processes your **IP address** transiently for rate-limiting. We do not store your IP address as part of your leaderboard entry, and we do not use it to identify or track you.
 
-We do not collect a device identifier, advertising ID, or any other persistent identifier through the leaderboard.
+### 1.2a The random device identifier
+On first run the App generates a **random 16-character hexadecimal string** and stores it on your device. It is **not** your advertising ID, Android ID, IMEI, MAC address, or any other hardware or system identifier, and it cannot be linked back to your handset by us or anyone else.
+
+It exists for one reason: so that a display name can be **reserved to the handheld that first used it**, which is what stops another player claiming your name on the leaderboard. Our leaderboard service stores it alongside the name for that purpose, and it is sent with a score and when the App checks whether a name is free.
+
+If you uninstall the App, this identifier is destroyed and a new one is generated on reinstall. You will no longer be recognised as the owner of a name you previously reserved.
+
+We do **not** collect your advertising ID, Android ID, or any hardware identifier.
 
 ### 1.3 In-app purchases (optional tips)
 If you choose to leave an optional **tip** to support the developer, the transaction is handled by **Google Play Billing**. Tips unlock nothing and grant no advantage — they are purely a way to say thanks; all cosmetics in the App are free. We receive confirmation of the purchase from Google; we do **not** receive or store your payment-card details.
@@ -57,6 +67,7 @@ We do **not** sell or share your data with advertisers, data brokers, marketers,
 ## 3. How long we keep your data
 
 - **Local game state**: kept on your device until you uninstall the App or clear its data. We never receive it.
+- **The random device identifier**: retained by our leaderboard service alongside your leaderboard entry, so the name stays reserved to you. Destroyed on your device when you uninstall; you may request removal of the server-side copy by contacting us.
 - **Leaderboard entries**: your submitted display name, score, and timestamp are retained by our leaderboard service so the leaderboard can be shown. You may request removal of an entry by contacting us (see Section 7).
 - **IP address**: processed transiently by Cloudflare for rate-limiting and not retained as part of your entry.
 
