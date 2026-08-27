@@ -6,7 +6,7 @@
 
 This is the privacy policy for the mobile game **PIXL SURF** ("the App"), published by Infinity Games ("we", "us", "our"). It explains what data the App collects, how we use it, and which third parties receive it.
 
-We do **not** require you to create an account, and we do **not** collect your real name, email address, phone number, contacts, photos, precise location, or advertising ID. **The App shows no ads** and contains no advertising SDK or third-party analytics SDK.
+We do **not** require you to create an account, and we do **not** collect your real name, email address, phone number, contacts, photos, precise location, or advertising ID. **The App shows no ads**, contains no advertising SDK, and uses no analytics SDK — we collect no usage statistics about you at all. The one Google library the App includes is **Google Play Billing**, for the optional tip jar (Section 1.3). It brings Google's own transport component with it, which reports the billing library's own operation to Google under Google's policies; we neither receive nor read anything from it.
 
 The App has two optional online features — a **global leaderboard** (Section 1.2) and a **PIXL CODE** profile sync that carries your settings between our games (Section 1.2b). The App is fully playable with neither of them.
 
@@ -64,6 +64,10 @@ A PIXL CODE is **not secret and not a password**. Anyone who types your code int
 ### 1.3 In-app purchases (optional tips)
 If you choose to leave an optional **tip** to support the developer, the transaction is handled by **Google Play Billing**. Tips unlock nothing and grant no advantage — they are purely a way to say thanks; all cosmetics in the App are free. We receive confirmation of the purchase from Google; we do **not** receive or store your payment-card details.
 
+Including Play Billing adds two things to the App: the `com.android.vending.BILLING` permission, and `ACCESS_NETWORK_STATE`, which the billing library uses to check whether the device is online. Neither gives us any new access to you — `ACCESS_NETWORK_STATE` reports only whether a connection exists, not what you do with it. The billing library also carries Google's own transport component, which sends Google diagnostics about the library's operation; that is Google's collection, under Google's policies, and it is not routed to us.
+
+**Refunds are handled by Google Play**, not by us.
+
 ---
 
 ## 2. Third-party services
@@ -73,7 +77,7 @@ If you choose to leave an optional **tip** to support the developer, the transac
 | **Cloudflare** | Hosts our leaderboard and PIXL CODE profile backend backend (Workers + KV storage) | The display name, score, and timestamp you submit; your IP address (transiently, for rate-limiting). [Cloudflare privacy policy](https://www.cloudflare.com/privacypolicy/) |
 | **Google Play Services** | App distribution + in-app billing (tips) | As governed by Google. [Google Play policy](https://policies.google.com/privacy) |
 
-We do **not** sell or share your data with advertisers, data brokers, marketers, or any other third parties beyond those listed above. There is no advertising network and no analytics SDK in the App.
+We do **not** sell or share your data with advertisers, data brokers, marketers, or any other third parties beyond those listed above. There is no advertising network in the App, and no analytics SDK of ours — see the note on Google Play Billing's own transport component in Section 1.3.
 
 ---
 
