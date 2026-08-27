@@ -6,7 +6,7 @@
 
 This is the privacy policy for the mobile game **PIXL SQUAD** ("the App"), published by Infinity Games ("we", "us", "our"). It explains what data the App collects, how we use it, and which third parties receive it.
 
-We do **not** require you to create an account, and we do **not** collect your real name, email address, phone number, contacts, photos, precise location, or advertising ID. **The App shows no ads** and contains no advertising SDK and no third-party analytics SDK.
+We do **not** require you to create an account, and we do **not** collect your real name, email address, phone number, contacts, photos, precise location, or advertising ID. **The App shows no ads**, contains no advertising SDK, and uses no analytics SDK — we collect no usage statistics about you at all. The one Google library the App includes is **Google Play Billing**, for the optional tip jar (Section 1.6). It brings Google's own transport component with it, which reports the billing library's own operation to Google under Google's policies; we neither receive nor read anything from it.
 
 The App contains an optional **tip jar** (Section 1.6). Tips are voluntary, they unlock nothing, and payment is handled entirely by Google Play — we never see your card or your billing details.
 
@@ -76,6 +76,8 @@ If you choose to give a tip:
 - **Neither the product id nor the purchase token is stored on your device or sent to our leaderboard service.** Nothing about a tip appears in your PIXL CODE profile, on the leaderboard, or in your save file.
 - Tips are **consumable** products, which means they can be given more than once. They are not a purchase you "own" and there is nothing to restore.
 
+Including Play Billing adds two things to the App that were not in it before: the `com.android.vending.BILLING` permission, and `ACCESS_NETWORK_STATE`, which the billing library uses to check whether the device is online. Neither gives us any new access to you — `ACCESS_NETWORK_STATE` reports only whether a connection exists, not what you do with it. The billing library also carries Google's own transport component, which sends Google diagnostics about the library's operation; that is Google's collection, under Google's policies, and it is not routed to us.
+
 Google's handling of the transaction is governed by the [Google Payments privacy notice](https://payments.google.com/legaldocument?family=0.privacynotice). **Refunds are handled by Google Play**, not by us.
 
 ---
@@ -88,7 +90,7 @@ Google's handling of the transaction is governed by the [Google Payments privacy
 | **Google Play Services** | App distribution | As governed by Google. [Google Play policy](https://policies.google.com/privacy) |
 | **Google Play Billing** | Processing optional tips (Section 1.6) | Your payment details, which go to Google and **not** to us. We receive only a product id and a one-use purchase token. [Google Payments privacy notice](https://payments.google.com/legaldocument?family=0.privacynotice) |
 
-We do **not** sell or share your data with advertisers, data brokers, marketers, or any other third parties beyond those listed above. There is no advertising network and no analytics SDK in the App.
+We do **not** sell or share your data with advertisers, data brokers, marketers, or any other third parties beyond those listed above. There is no advertising network in the App, and no analytics SDK of ours — see the note on Google Play Billing's own transport component in Section 1.6.
 
 **The App's only in-app purchases are optional tips, and they unlock nothing** (Section 1.6). Every cosmetic, mission, fly and piece of kit in the game is reachable without spending anything.
 
