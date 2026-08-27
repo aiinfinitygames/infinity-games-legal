@@ -8,7 +8,7 @@ This is the privacy policy for the mobile game **PIXL SURF** ("the App"), publis
 
 We do **not** require you to create an account, and we do **not** collect your real name, email address, phone number, contacts, photos, precise location, or advertising ID. **The App shows no ads** and contains no advertising SDK or third-party analytics SDK.
 
-The App has one online feature — an optional **global leaderboard**. If you choose to submit a score, a small amount of data is sent to our leaderboard service. This is described in Section 1.2.
+The App has two optional online features — a **global leaderboard** (Section 1.2) and a **PIXL CODE** profile sync that carries your settings between our games (Section 1.2b). The App is fully playable with neither of them.
 
 ---
 
@@ -23,6 +23,7 @@ The following is stored on your device only and is **never** sent to us:
 - Your selected cosmetics (handheld shell theme and board skin)
 - Your best medal earned
 - A **random device identifier** (see Section 1.2a)
+- Your **PIXL CODE**, if you have made or entered one (see Section 1.2b)
 
 You can clear this data at any time by uninstalling the App.
 
@@ -48,6 +49,18 @@ If you uninstall the App, this identifier is destroyed and a new one is generate
 
 We do **not** collect your advertising ID, Android ID, or any hardware identifier.
 
+### 1.2b PIXL CODE profile sync (only if you create or enter a code)
+Our games share a settings profile so that a shell theme you choose in one is the theme you get in another. If — and only if — you create a **PIXL CODE** or type one in, the App sends and retrieves the following:
+
+- The **PIXL CODE** itself: six characters, randomly generated. It is **not** derived from your device, your name, or anything about you
+- Your **random device identifier** (see Section 1.2a)
+- Your **settings**: shell theme, display name, sound on/off, haptics on/off
+- A **timestamp** and a **signature**
+
+That is the complete list. The sync carries **preferences and nothing else** — not your best score, not your local high-score list, not your medals. Every cosmetic in these games is free, so there is nothing in a profile worth stealing.
+
+A PIXL CODE is **not secret and not a password**. Anyone who types your code into one of our games can read and overwrite the settings stored under it. Do not treat it as a login. The App says so on the screen where the code is shown.
+
 ### 1.3 In-app purchases (optional tips)
 If you choose to leave an optional **tip** to support the developer, the transaction is handled by **Google Play Billing**. Tips unlock nothing and grant no advantage — they are purely a way to say thanks; all cosmetics in the App are free. We receive confirmation of the purchase from Google; we do **not** receive or store your payment-card details.
 
@@ -57,7 +70,7 @@ If you choose to leave an optional **tip** to support the developer, the transac
 
 | Service | Purpose | Data they receive |
 |---|---|---|
-| **Cloudflare** | Hosts our leaderboard backend (Workers + KV storage) | The display name, score, and timestamp you submit; your IP address (transiently, for rate-limiting). [Cloudflare privacy policy](https://www.cloudflare.com/privacypolicy/) |
+| **Cloudflare** | Hosts our leaderboard and PIXL CODE profile backend backend (Workers + KV storage) | The display name, score, and timestamp you submit; your IP address (transiently, for rate-limiting). [Cloudflare privacy policy](https://www.cloudflare.com/privacypolicy/) |
 | **Google Play Services** | App distribution + in-app billing (tips) | As governed by Google. [Google Play policy](https://policies.google.com/privacy) |
 
 We do **not** sell or share your data with advertisers, data brokers, marketers, or any other third parties beyond those listed above. There is no advertising network and no analytics SDK in the App.
@@ -68,6 +81,7 @@ We do **not** sell or share your data with advertisers, data brokers, marketers,
 
 - **Local game state**: kept on your device until you uninstall the App or clear its data. We never receive it.
 - **The random device identifier**: retained by our leaderboard service alongside your leaderboard entry, so the name stays reserved to you. Destroyed on your device when you uninstall; you may request removal of the server-side copy by contacting us.
+- **PIXL CODE profiles**: your code, device identifier and settings are retained so the code keeps working. You may request removal by contacting us.
 - **Leaderboard entries**: your submitted display name, score, and timestamp are retained by our leaderboard service so the leaderboard can be shown. You may request removal of an entry by contacting us (see Section 7).
 - **IP address**: processed transiently by Cloudflare for rate-limiting and not retained as part of your entry.
 
