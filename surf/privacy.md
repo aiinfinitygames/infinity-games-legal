@@ -1,6 +1,6 @@
 # Privacy Policy — PIXL SURF
 
-**Effective date:** 2026-08-27
+**Effective date:** 2026-08-28
 **Publisher:** Infinity Games
 **Contact:** ai.infinitygames@gmail.com
 
@@ -43,16 +43,18 @@ To operate the leaderboard and prevent spam and cheating, our service provider (
 ### 1.2a The random device identifier
 On first run the App generates a **random 16-character hexadecimal string** and stores it on your device. It is **not** your advertising ID, Android ID, IMEI, MAC address, or any other hardware or system identifier, and it cannot be linked back to your handset by us or anyone else.
 
-It exists for one reason: so that a display name can be **reserved to the handheld that first used it**, which is what stops another player claiming your name on the leaderboard. Our leaderboard service stores it alongside the name for that purpose, and it is sent with a score and when the App checks whether a name is free.
+It exists so that a leaderboard display name can be **reserved to you**, which is what stops another player claiming your name. Our leaderboard service stores it alongside the name for that purpose, and it is sent with a score and when the App checks whether a name is free.
 
-If you uninstall the App, this identifier is destroyed and a new one is generated on reinstall. You will no longer be recognised as the owner of a name you previously reserved.
+If you use a **PIXL CODE**, the name is reserved to **the code** rather than to a single handheld — that is what lets the same name be yours in every PIXL game you play, and on a replacement phone. Anyone who knows your code can therefore also post a score under your name; the code is not a password, and the App says so where it shows you the code.
+
+If you uninstall the App, this identifier is destroyed and a new one is generated on reinstall. Without a PIXL CODE you will no longer be recognised as the owner of a name you previously reserved. With one, entering it again restores your claim to the name.
 
 We do **not** collect your advertising ID, Android ID, or any hardware identifier.
 
 ### 1.2b PIXL CODE profile sync (only if you create or enter a code)
 Our games share a settings profile so that a shell theme you choose in one is the theme you get in another. If — and only if — you create a **PIXL CODE** or type one in, the App sends and retrieves the following:
 
-- The **PIXL CODE** itself: six characters, randomly generated. It is **not** derived from your device, your name, or anything about you
+- The **PIXL CODE** itself: eight characters, randomly generated. It is **not** derived from your device, your name, or anything about you
 - Your **random device identifier** (see Section 1.2a)
 - Your **settings**: shell theme, display name, sound on/off, haptics on/off
 - A **timestamp** and a **signature**

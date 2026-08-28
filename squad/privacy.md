@@ -1,6 +1,6 @@
 # Privacy Policy — PIXL SQUAD
 
-**Effective date:** 2026-08-27
+**Effective date:** 2026-08-28
 **Publisher:** Infinity Games
 **Contact:** ai.infinitygames@gmail.com
 
@@ -45,7 +45,7 @@ Your display name, score and lost-tally are **publicly visible** to other player
 ### 1.3 PIXL CODE profile sync (only if you create or enter a code)
 Our games share a settings profile so that a theme you choose in one is the theme you get in another. If — and only if — you create a **PIXL CODE** or type one in, the App sends and retrieves the following:
 
-- The **PIXL CODE** itself: six characters, randomly generated. It is **not** derived from your device, your name, or anything about you
+- The **PIXL CODE** itself: eight characters, randomly generated. It is **not** derived from your device, your name, or anything about you
 - Your **random device identifier** (see Section 1.4)
 - Your **settings**: shell theme, display name, sound on/off, haptics on/off
 - A **timestamp** and a **signature**
@@ -57,9 +57,13 @@ A PIXL CODE is **not secret and not a password**. Anyone who types your code int
 ### 1.4 The random device identifier
 On first run the App generates a **random 16-character hexadecimal string** and stores it on your device. It is **not** your advertising ID, Android ID, IMEI, MAC address, or any other hardware or system identifier, and it cannot be linked back to your handset by us or anyone else.
 
-It exists for one reason: so that a display name and a PIXL CODE can be **reserved to the handheld that first used them**, which is what stops another player claiming your name or overwriting your profile. Our leaderboard service stores it alongside the name and the code for that purpose.
+It exists so that a leaderboard display name can be **reserved to you**, which is what stops another player claiming your name. Our leaderboard service stores it alongside the name for that purpose, and it is sent with a score and when the App checks whether a name is free.
 
-If you uninstall the App, this identifier is destroyed and a new one is generated on reinstall. You will no longer be recognised as the owner of a name or code you previously reserved.
+If you use a **PIXL CODE**, the name is reserved to **the code** rather than to a single handheld — that is what lets the same name be yours in every PIXL game you play, and on a replacement phone.
+
+A **PIXL CODE profile is not reserved to any device at all**, and this is deliberate: a code exists to be used by more than one game, and each game on your phone generates its own identifier. Anyone who knows your code can read and overwrite what is stored under it — a shell theme, a display name, and your sound and vibrate settings — and can post a score under that name. The code is not a password, and the App says so both when it first offers you one and on the screen that displays it.
+
+If you uninstall the App, this identifier is destroyed and a new one is generated on reinstall. Without a PIXL CODE you will no longer be recognised as the owner of a name you previously reserved. With one, entering it again restores your claim to the name and everything stored under the code.
 
 ### 1.5 IP address
 To operate the service and prevent spam and cheating, our provider (**Cloudflare**) processes your **IP address** transiently for rate-limiting. We do not store your IP address as part of your leaderboard entry or your profile, and we do not use it to identify or track you.
